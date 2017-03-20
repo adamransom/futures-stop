@@ -1,0 +1,10 @@
+[package]
+name = "futures-stop"
+version = "0.1.0"
+authors = ["Adam Ransom"]
+
+[dependencies]
+futures = "0.1.9"
+
+[dev-dependencies]
+tokio-timer = { git = "https://github.com/tokio-rs/tokio-timer" }
