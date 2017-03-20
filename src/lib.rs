@@ -3,6 +3,8 @@
 //! This is a very simple implementation which wraps a stream with another stream that will finish
 //! when it receives a message from a sender.
 //!
+//! [`futures::Stream`]: ../future/stream/trait.Stream.html
+//!
 //! # Examples
 //!
 //! ```ignore

@@ -4,6 +4,8 @@ An example implementation of allowing [`futures::Stream`](http://alexcrichton.co
 
 This is a very simple implementation which wraps a stream with another stream that will finish when it receives a message from a sender.
 
+[API Documentation](https://adamransom.github.io/futures-stop/)
+
 ## Usage
 
 ```Rust
